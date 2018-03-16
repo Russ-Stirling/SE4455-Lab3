@@ -1,0 +1,50 @@
+ / # [6n/ # [J/ # [Jping redis
+ PING redis (172.30.0.3): 56 data bytes
+ 64 bytes from 172.30.0.3: seq=0 ttl=64 time=0.092 ms
+ 64 bytes from 172.30.0.3: seq=1 ttl=64 time=0.102 ms
+ 64 bytes from 172.30.0.3: seq=2 ttl=64 time=0.089 ms
+ 64 bytes from 172.30.0.3: seq=3 ttl=64 time=0.110 ms
+ ^C
+ --- redis ping statistics ---
+ 4 packets transmitted, 4 packets received, 0% packet loss
+ round-trip min/avg/max = 0.089/0.098/0.110 ms
+ / # [6nping web1
+ PING web1 (172.30.0.4): 56 data bytes
+ 64 bytes from 172.30.0.4: seq=0 ttl=64 time=0.118 ms
+ 64 bytes from 172.30.0.4: seq=1 ttl=64 time=0.091 ms
+ 64 bytes from 172.30.0.4: seq=2 ttl=64 time=0.094 ms
+ ^C
+ --- web1 ping statistics ---
+ 3 packets transmitted, 3 packets received, 0% packet loss
+ round-trip min/avg/max = 0.091/0.101/0.118 ms
+ / # [6nexit
+ / # [6n/ # [J/ # [Jping redis
+ PING redis (172.30.0.3): 56 data bytes
+ 64 bytes from 172.30.0.3: seq=0 ttl=64 time=0.116 ms
+ 64 bytes from 172.30.0.3: seq=1 ttl=64 time=0.097 ms
+ 64 bytes from 172.30.0.3: seq=2 ttl=64 time=0.130 ms
+ ^C
+ --- redis ping statistics ---
+ 3 packets transmitted, 3 packets received, 0% packet loss
+ round-trip min/avg/max = 0.097/0.114/0.130 ms
+ / # [6nping web1
+ PING web1 (172.30.0.4): 56 data bytes
+ 64 bytes from 172.30.0.4: seq=0 ttl=64 time=0.091 ms
+ 64 bytes from 172.30.0.4: seq=1 ttl=64 time=0.091 ms
+ 64 bytes from 172.30.0.4: seq=2 ttl=64 time=0.098 ms
+ ^C
+ --- web1 ping statistics ---
+ 3 packets transmitted, 3 packets received, 0% packet loss
+ round-trip min/avg/max = 0.091/0.093/0.098 ms
+ / # [6nexit
+ / # [6n/ # [J/ # [Jping -n web1
+ PING web1 (172.30.0.4): 56 data bytes
+ 64 bytes from 172.30.0.4: seq=0 ttl=64 time=0.095 ms
+ 64 bytes from 172.30.0.4: seq=1 ttl=64 time=0.101 ms
+ 64 bytes from 172.30.0.4: seq=2 ttl=64 time=0.094 ms
+ 64 bytes from 172.30.0.4: seq=3 ttl=64 time=0.130 ms
+ ^C
+ --- web1 ping statistics ---
+ 4 packets transmitted, 4 packets received, 0% packet loss
+ round-trip min/avg/max = 0.094/0.105/0.130 ms
+ / # [6nexir[Jt

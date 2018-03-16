@@ -1,0 +1,4 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
+06b37192252b        groupsevenhello     "python app.py"          About an hour ago   Up About an hour    0.0.0.0:80->80/tcp   web1
+7c9a61fb12b8        redis               "docker-entrypoint.s…"   2 days ago          Up 2 days           6379/tcp             redis
+d4bd9df32154        alpine              "ash"                    2 days ago          Up 30 minutes                            a1

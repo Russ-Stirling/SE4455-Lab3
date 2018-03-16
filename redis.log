@@ -1,0 +1,64 @@
+ 1:C 14 Mar 15:58:22.127 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+ 1:C 14 Mar 15:58:22.127 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=1, just started
+ 1:C 14 Mar 15:58:22.127 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+ 1:M 14 Mar 15:58:22.129 * Running mode=standalone, port=6379.
+ 1:M 14 Mar 15:58:22.129 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+ 1:M 14 Mar 15:58:22.129 # Server initialized
+ 1:M 14 Mar 15:58:22.129 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+ 1:M 14 Mar 15:58:22.129 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+ 1:M 14 Mar 15:58:22.129 * Ready to accept connections
+ 1:signal-handler (1521045227) Received SIGINT scheduling shutdown...
+ 1:M 14 Mar 16:33:47.973 # User requested shutdown...
+ 1:M 14 Mar 16:33:47.973 * Saving the final RDB snapshot before exiting.
+ 1:M 14 Mar 16:33:48.005 * DB saved on disk
+ 1:M 14 Mar 16:33:48.005 # Redis is now ready to exit, bye bye...
+ 1:C 14 Mar 16:34:12.556 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+ 1:C 14 Mar 16:34:12.556 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=1, just started
+ 1:C 14 Mar 16:34:12.556 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+ 1:M 14 Mar 16:34:12.558 * Running mode=standalone, port=6379.
+ 1:M 14 Mar 16:34:12.558 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+ 1:M 14 Mar 16:34:12.558 # Server initialized
+ 1:M 14 Mar 16:34:12.558 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+ 1:M 14 Mar 16:34:12.558 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+ 1:M 14 Mar 16:34:12.558 * DB loaded from disk: 0.000 seconds
+ 1:M 14 Mar 16:34:12.558 * Ready to accept connections
+ 1:M 14 Mar 17:34:13.044 * 1 changes in 3600 seconds. Saving...
+ 1:M 14 Mar 17:34:13.044 * Background saving started by pid 13
+ 13:C 14 Mar 17:34:13.073 * DB saved on disk
+ 13:C 14 Mar 17:34:13.074 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 14 Mar 17:34:13.144 * Background saving terminated with success
+ 1:M 14 Mar 18:40:14.040 * 1 changes in 3600 seconds. Saving...
+ 1:M 14 Mar 18:40:14.040 * Background saving started by pid 14
+ 14:C 14 Mar 18:40:14.068 * DB saved on disk
+ 14:C 14 Mar 18:40:14.069 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 14 Mar 18:40:14.141 * Background saving terminated with success
+ 1:M 14 Mar 19:40:15.098 * 1 changes in 3600 seconds. Saving...
+ 1:M 14 Mar 19:40:15.098 * Background saving started by pid 15
+ 15:C 14 Mar 19:40:15.133 * DB saved on disk
+ 15:C 14 Mar 19:40:15.133 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 14 Mar 19:40:15.198 * Background saving terminated with success
+ 1:M 14 Mar 21:06:05.087 * 1 changes in 3600 seconds. Saving...
+ 1:M 14 Mar 21:06:05.087 * Background saving started by pid 16
+ 16:C 14 Mar 21:06:05.123 * DB saved on disk
+ 16:C 14 Mar 21:06:05.124 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 14 Mar 21:06:05.188 * Background saving terminated with success
+ 1:M 15 Mar 06:50:09.376 * 1 changes in 3600 seconds. Saving...
+ 1:M 15 Mar 06:50:09.376 * Background saving started by pid 17
+ 17:C 15 Mar 06:50:09.418 * DB saved on disk
+ 17:C 15 Mar 06:50:09.419 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 15 Mar 06:50:09.477 * Background saving terminated with success
+ 1:M 15 Mar 11:55:09.087 * 1 changes in 3600 seconds. Saving...
+ 1:M 15 Mar 11:55:09.087 * Background saving started by pid 18
+ 18:C 15 Mar 11:55:09.121 * DB saved on disk
+ 18:C 15 Mar 11:55:09.122 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 15 Mar 11:55:09.187 * Background saving terminated with success
+ 1:M 16 Mar 18:49:09.902 * 1 changes in 3600 seconds. Saving...
+ 1:M 16 Mar 18:49:09.902 * Background saving started by pid 19
+ 19:C 16 Mar 18:49:09.961 * DB saved on disk
+ 19:C 16 Mar 18:49:09.961 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 16 Mar 18:49:10.002 * Background saving terminated with success
+ 1:M 16 Mar 19:49:10.073 * 1 changes in 3600 seconds. Saving...
+ 1:M 16 Mar 19:49:10.074 * Background saving started by pid 20
+ 20:C 16 Mar 19:49:10.105 * DB saved on disk
+ 20:C 16 Mar 19:49:10.106 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 16 Mar 19:49:10.174 * Background saving terminated with success
